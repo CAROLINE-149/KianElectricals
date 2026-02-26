@@ -6,4 +6,4 @@ from django.http import HttpResponse
    # return render(request, 'firstApp/home.html')  
 
 def home(request):
-    return HttpResponse("Kian App is working")
+    return render(request,'kianapp/home.html')

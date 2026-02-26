@@ -4,5 +4,5 @@ from . import views # import veiws from the current root directory
     # endpoints + target view functions
     
 urlpatterns = [
-    path('', views.home, name='home'),
+    path('',views.home,name='home'),
 ]
